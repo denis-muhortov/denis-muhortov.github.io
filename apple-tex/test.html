@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru" class="">
+<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Apple-tex</title>
+
+	    <!-- Google Fonts -->
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-open-sans" data-protected="true" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-roboto" data-protected="true" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-roboto-slab" data-protected="true" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-ek-mukta" data-protected="true" href="https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-montserrat" data-protected="true" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&subset=cyrillic">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-alegreya-sans" data-protected="true" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,900&subset=cyrillic-ext,latin-ext">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-cormorant-infant" data-protected="true" href="https://fonts.googleapis.com/css?family=Cormorant+Infant:400,400i,600,600i,700,700i&subset=cyrillic-ext,latin-ext">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-pt-sans-caption" data-protected="true" href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=cyrillic-ext,latin-ext">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-pt-sans-narrow" data-protected="true" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Sans:400,700&subset=cyrillic-ext,latin-ext">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-pt-sans" data-protected="true" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext,latin-ext">
+	<link rel="preload" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'" data-font="g-font-lobster" data-protected="true" href="https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic-ext,latin-ext">
+	<noscript>
+		<link data-font="g-font-open-sans" data-protected="true" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic" rel="stylesheet">
+		<link data-font="g-font-roboto" data-protected="true" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+		<link data-font="g-font-roboto-slab" data-protected="true" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+		<link data-font="g-font-ek-mukta" data-protected="true" href="https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700" rel="stylesheet">
+		<link data-font="g-font-montserrat" data-protected="true" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&subset=cyrillic" rel="stylesheet">
+		<link data-font="g-font-alegreya-sans" data-protected="true" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,900&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+		<link data-font="g-font-cormorant-infant" data-protected="true" href="https://fonts.googleapis.com/css?family=Cormorant+Infant:400,400i,600,600i,700,700i&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+		<link data-font="g-font-pt-sans-caption" data-protected="true" href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+		<link data-font="g-font-pt-sans-narrow" data-protected="true" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Sans:400,700&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+		<link data-font="g-font-pt-sans" data-protected="true" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+		<link data-font="g-font-lobster" data-protected="true" href="https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+	</noscript>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/bitrix/js/main/core/css/core.min.css?14290239272854" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="/bitrix/js/intranet/intranet-common.min.css?156700641462422" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/components/bitrix/landing.pub/templates/.default/style.min.css?1569338401769" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css?1567508327154948" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/themes/themes_core.min.css?1573313510391156" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/assets/css/custom-grid.min.css?156933840138" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/template_styles.min.css?1551961852612" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+
+
+
+
+<meta name="robots" content="all" />
+<style type="text/css">
+					body {
+						background-color: #000000!important;
+					}
+				</style>
+<meta name="og:url" content="https://apple-tex.bitrix24.site/" />
+<link rel="canonical" href="https://apple-tex.bitrix24.site/"/> <meta property="og:title" content="Apple-tex" /><meta property="og:description" content="лучший интернет магазин б/у iphone" /><meta property="og:image" content="https://cdn.bitrix24.ru/b12320196/landing/e26/e2665219d011cbcacce432426a487112/bg-header.jpg_1x.jpg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="801" /><meta property="og:type" content="website" /><link rel="icon" type="image/png" href="https://cdn.bitrix24.ru/b12320196/landing/bf2/bf208cc1271dec68a84e3019d75a5e79/favicon.png" sizes="16x16"><link rel="icon" type="image/png" href="https://cdn.bitrix24.ru/b12320196/landing/bf2/bf208cc1271dec68a84e3019d75a5e79/favicon.png" sizes="32x32"><link rel="icon" type="image/png" href="https://cdn.bitrix24.ru/b12320196/landing/bf2/bf208cc1271dec68a84e3019d75a5e79/favicon.png" sizes="96x96"><link rel="apple-touch-icon" href="https://cdn.bitrix24.ru/b12320196/landing/bf2/bf208cc1271dec68a84e3019d75a5e79/favicon.png" sizes="120x120"><link rel="apple-touch-icon" href="https://cdn.bitrix24.ru/b12320196/landing/bf2/bf208cc1271dec68a84e3019d75a5e79/favicon.png" sizes="180x180"><link rel="apple-touch-icon" href="https://cdn.bitrix24.ru/b12320196/landing/bf2/bf208cc1271dec68a84e3019d75a5e79/favicon.png" sizes="152x152"><link rel="apple-touch-icon" href="https://cdn.bitrix24.ru/b12320196/landing/bf2/bf208cc1271dec68a84e3019d75a5e79/favicon.png" sizes="167x167"></head>
+
+<body class="g-upper-show landing-b24button-use-style" >
+<main class="w-100 landing-public-mode g-pt-6 g-px-10 g-pt-30--md g-px-50--md"><div id="block54" class="block-wrapper block-0-menu-14-music"><header class="landing-block landing-block-menu u-header u-header--floating u-header--floating-relative g-bg-black">
+	<div class="u-header__section g-transition-0_3 g-py-16 g-py-10--md" data-header-fix-moment-classes="u-shadow-v27">
+		<nav class="navbar navbar-expand-lg p-0 g-px-15 u-navbar-color-white u-navbar-color-teal--hover">
+			<div class="container">
+				<!-- Logo -->
+				<a href="https://apple-tex.bitrix24.site/" class="navbar-brand landing-block-node-menu-logo-link u-header__logo" target="_blank">
+					<img class="landing-block-node-menu-logo u-header__logo-img u-header__logo-img--main g-max-width-180" src="https://cdn.bitrix24.ru/b12320196/landing/5b7/5b759dff30adef3e8319cbb743ef11e0/eRduHM5vPqI_2x_2x_1x.jpg" alt="apple" srcset="https://cdn.bitrix24.ru/b12320196/landing/734/7346c55fb64ce7354c1e4365bf62fcfc/eRduHM5vPqI_2x_2x_2x.jpg 2x" data-fileid="192" data-fileid2x="194" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" />
+				</a>
+				<!-- End Logo -->
+
+				<!-- Navigation -->
+				<div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar28">
+					<ul class="landing-block-node-menu-list js-scroll-nav navbar-nav text-uppercase g-font-weight-700 g-font-size-11 g-pt-20 g-pt-0--lg ml-auto"><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="https://apple-tex.bitrix24.site/" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">главная</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="https://apple-tex.bitrix24.site/goods/" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">товары</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="https://apple-tex.bitrix24.site/kontakty/" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">контакты</a>
+						</li></ul>
+				</div>
+				<!-- End Navigation -->
+
+				<!-- Responsive Toggle Button -->
+				<button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-mt-9 ml-auto" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar28" data-toggle="collapse" data-target="#navBar28">
+                <span class="hamburger hamburger--slider">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </span>
+				</button>
+				<!-- End Responsive Toggle Button -->
+			</div>
+		</nav>
+	</div>
+</header></div><div id="block56" class="block-wrapper block-01-big-with-text-3"><section class="landing-block landing-block-node-img u-bg-overlay g-flex-centered g-min-height-100vh g-bg-img-hero g-pt-80 g-pb-80 g-bg-size-contain-no-repeat g-bg-none--after" style="background-image: url('https://cdn.bitrix24.ru/b12320196/landing/3b1/3b1f10ea09b8e5abcc793db7f7e9690b/bg-header.jpg_1x.jpg'); background-image: -webkit-image-set(url('https://cdn.bitrix24.ru/b12320196/landing/3b1/3b1f10ea09b8e5abcc793db7f7e9690b/bg-header.jpg_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/a6d/a6db8367b2f642b859dbf092a3c951e5/bg-header.jpg_2x.jpg') 2x); background-image: image-set(url('https://cdn.bitrix24.ru/b12320196/landing/3b1/3b1f10ea09b8e5abcc793db7f7e9690b/bg-header.jpg_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/a6d/a6db8367b2f642b859dbf092a3c951e5/bg-header.jpg_2x.jpg') 2x);" data-fileid="96" data-fileid2x="98" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}">
+	<div class="landing-block-node-container container g-max-width-800 js-animation text-center u-bg-overlay__inner g-mx-1 slideInDown">
+		<h2 class="landing-block-node-title text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-mb-20 g-color-teal">Apple-tex</h2>
+
+		<div class="landing-block-node-text g-mb-35 g-color-teal">Лучший интернет-магазин техники apple</div>
+		<div class="landing-block-node-button-container">
+			<a href="https://apple-tex.bitrix24.site/goods/" class="landing-block-node-button btn btn-xl text-uppercase g-font-weight-700 g-font-size-12 g-py-15 g-px-40 u-btn-outline-teal g-rounded-30 g-color-teal g-color-black-opacity-0_9--hover" target="_self">товары</a>
+		</div>
+	</div>
+</section></div><div id="block58" class="block-wrapper block-26-separator"><section class="landing-block g-pt-15 g-pb-15 g-bg-transparent">
+
+        <hr class="landing-block-line my-0 g-brd-black" />
+
+    </section></div><div id="block104" class="block-wrapper block-07-2-two-col-fix-text-with-icon-with-title"><section class="landing-block g-pt-20 g-pb-20 g-bg-black">
+
+		<div class="container text-center g-width-780 g-color-gray-light-v2 g-mb-20">
+			<div class="landing-block-node-header text-uppercase u-heading-v2-4--bottom g-mb-40 g-brd-teal">
+				<h4 class="landing-block-node-subtitle h6 g-font-weight-800 g-font-size-12 g-letter-spacing-1 g-color-primary g-mb-20"> </h4>
+				<h2 class="landing-block-node-title h1 u-heading-v2__title g-line-height-1_3 g-font-weight-600 g-font-size-40 g-mb-minus-10 g-color-teal">Как купить у нас товар?</h2>
+			</div>
+		</div>
+		
+        <div class="container">
+            <div class="row landing-block-inner"><div class="landing-block-card js-animation col-lg-6 g-px-30 g-mb-10 landing-card fadeIn">
+                    <div class="landing-block-card-container g-pos-rel g-parent g-py-35 g-px-25 g-pl-70--sm g-pl-60 g-ml-30 g-ml-0--sm g-bg-black">
+                        <div class="g-absolute-centered--y g-left-0 g-absolute-top-px">
+                            <div class="landing-block-node-element-icon-container g-pull-50x-left g-brd-around g-brd-5 g-rounded-50x g-overflow-hidden g-bg-black g-color-teal g-box-shadow-none">
+                                <span class="landing-block-node-element-icon-hover d-block g-pos-abs g-top-0 g-left-0 g-width-85 g-height-85 g-rounded-50x opacity-0 g-opacity-1--parent-hover g-transition-0_1 g-transition--ease-in" style="background-image: url('https://cdn.bitrix24.ru/b12320196/landing/64a/64ae64c3b15efa7b559d83a831f6f825/y0_vFxOHayg_1x.jpg'); background-image: -webkit-image-set(url('https://cdn.bitrix24.ru/b12320196/landing/64a/64ae64c3b15efa7b559d83a831f6f825/y0_vFxOHayg_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/3ae/3ae387152521419eac84ffbb0d9a3b62/y0_vFxOHayg_2x.jpg') 2x); background-image: image-set(url('https://cdn.bitrix24.ru/b12320196/landing/64a/64ae64c3b15efa7b559d83a831f6f825/y0_vFxOHayg_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/3ae/3ae387152521419eac84ffbb0d9a3b62/y0_vFxOHayg_2x.jpg') 2x);" data-fileid="278" data-fileid2x="280" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></span>
+								<span class="u-icon-v3 u-icon-size--xl g-width-85 g-height-85 g-bg-transparent g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
+								  <i class="landing-block-node-element-icon fa fa-arrow-circle-right" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+								</span>
+                            </div>
+                        </div>
+
+                        <h3 class="landing-block-node-element-title h5 text-uppercase g-mb-10 g-color-white">Шаг 1.</h3>
+                        <div class="landing-block-node-element-text g-color-white"><p>выберите любой понравившийся вам товар.</p></div>
+                    </div>
+                </div><div class="landing-block-card js-animation col-lg-6 g-px-30 g-mb-10 landing-card fadeIn" style="animation-duration: 1000ms;animation-play-state: running;animation-name: none;">
+                    <div class="landing-block-card-container g-pos-rel g-parent g-py-35 g-px-25 g-pl-70--sm g-pl-60 g-ml-30 g-ml-0--sm g-bg-black" style="">
+                        <div class="g-absolute-centered--y g-left-0 g-absolute-top-px">
+                            <div class="landing-block-node-element-icon-container g-pull-50x-left g-brd-around g-brd-5 g-rounded-50x g-overflow-hidden g-bg-black g-color-teal g-box-shadow-none" style="">
+                                <span class="landing-block-node-element-icon-hover d-block g-pos-abs g-top-0 g-left-0 g-width-85 g-height-85 g-rounded-50x opacity-0 g-opacity-1--parent-hover g-transition-0_1 g-transition--ease-in" style="background-image: url('https://cdn.bitrix24.ru/b12320196/landing/f92/f929b58b13d9eeed67f3c039d0d64f97/lwaw_DL09S4_1x.jpg'); background-image: -webkit-image-set(url('https://cdn.bitrix24.ru/b12320196/landing/f92/f929b58b13d9eeed67f3c039d0d64f97/lwaw_DL09S4_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/22e/22e7938a3601ad548755e9248eb81f3f/lwaw_DL09S4_2x.jpg') 2x); background-image: image-set(url('https://cdn.bitrix24.ru/b12320196/landing/f92/f929b58b13d9eeed67f3c039d0d64f97/lwaw_DL09S4_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/22e/22e7938a3601ad548755e9248eb81f3f/lwaw_DL09S4_2x.jpg') 2x);" data-selector=".landing-block-node-element-icon-hover@1" title="Нажмите, чтобы отредактировать изображение" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="282" data-fileid2x="284"></span>
+								<span class="u-icon-v3 u-icon-size--xl g-width-85 g-height-85 g-bg-transparent g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
+								  <i class="landing-block-node-element-icon fa fa-arrow-circle-right" data-selector=".landing-block-node-element-icon@1" title="Нажмите, чтобы отредактировать изображение" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+								</span>
+                            </div>
+                        </div>
+
+                        <h3 class="landing-block-node-element-title h5 text-uppercase g-mb-10 g-color-white" data-selector=".landing-block-node-element-title@1" title="Нажмите, чтобы отредактировать текст" style="" contenteditable="false">Шаг 2.</h3>
+                        <div class="landing-block-node-element-text g-color-white" data-selector=".landing-block-node-element-text@1" title="Нажмите, чтобы отредактировать текст" style="" contenteditable="false"><p>нажмите кнопку купить.</p></div>
+                    </div>
+                </div><div class="landing-block-card js-animation col-lg-6 g-px-30 g-mb-10 landing-card fadeIn" style="animation-duration: 1000ms;animation-play-state: running;animation-name: none;">
+                    <div class="landing-block-card-container g-pos-rel g-parent g-py-35 g-px-25 g-pl-70--sm g-pl-60 g-ml-30 g-ml-0--sm g-bg-black" style="">
+                        <div class="g-absolute-centered--y g-left-0 g-absolute-top-px">
+                            <div class="landing-block-node-element-icon-container g-pull-50x-left g-brd-around g-brd-5 g-rounded-50x g-overflow-hidden g-bg-black g-color-teal g-box-shadow-none" style="">
+                                <span class="landing-block-node-element-icon-hover d-block g-pos-abs g-top-0 g-left-0 g-width-85 g-height-85 g-rounded-50x opacity-0 g-opacity-1--parent-hover g-transition-0_1 g-transition--ease-in" style="background-image: url('https://cdn.bitrix24.ru/b12320196/landing/c1e/c1ee23bbe47aebad1553e55517b59fb1/e31ANd1PXUw_1x.jpg'); background-image: -webkit-image-set(url('https://cdn.bitrix24.ru/b12320196/landing/c1e/c1ee23bbe47aebad1553e55517b59fb1/e31ANd1PXUw_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/815/81564e83323fa8e9ca72d5716420847c/e31ANd1PXUw_2x.jpg') 2x); background-image: image-set(url('https://cdn.bitrix24.ru/b12320196/landing/c1e/c1ee23bbe47aebad1553e55517b59fb1/e31ANd1PXUw_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/815/81564e83323fa8e9ca72d5716420847c/e31ANd1PXUw_2x.jpg') 2x);" data-selector=".landing-block-node-element-icon-hover@1" title="Нажмите, чтобы отредактировать изображение" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="286" data-fileid2x="288"></span>
+								<span class="u-icon-v3 u-icon-size--xl g-width-85 g-height-85 g-bg-transparent g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
+								  <i class="landing-block-node-element-icon fa fa-arrow-circle-right" data-selector=".landing-block-node-element-icon@1" title="Нажмите, чтобы отредактировать изображение" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+								</span>
+                            </div>
+                        </div>
+
+                        <h3 class="landing-block-node-element-title h5 text-uppercase g-mb-10 g-color-white" data-selector=".landing-block-node-element-title@1" title="Нажмите, чтобы отредактировать текст" style="" contenteditable="false">Шаг 3.</h3>
+                        <div class="landing-block-node-element-text g-color-white" data-selector=".landing-block-node-element-text@1" title="Нажмите, чтобы отредактировать текст" style="" contenteditable="false"><p>перейдя на страницу заполните форму, в комментарии укажите название модели.</p></div>
+                    </div>
+                </div><div class="landing-block-card js-animation col-lg-6 g-px-30 g-mb-10 landing-card fadeIn" style="animation-duration: 1000ms;animation-play-state: running;animation-name: none;">
+                    <div class="landing-block-card-container g-pos-rel g-parent g-py-35 g-px-25 g-pl-70--sm g-pl-60 g-ml-30 g-ml-0--sm g-bg-black" style="">
+                        <div class="g-absolute-centered--y g-left-0 g-absolute-top-px">
+                            <div class="landing-block-node-element-icon-container g-pull-50x-left g-brd-around g-brd-5 g-rounded-50x g-overflow-hidden g-bg-black g-color-teal g-box-shadow-none" style="">
+                                <span class="landing-block-node-element-icon-hover d-block g-pos-abs g-top-0 g-left-0 g-width-85 g-height-85 g-rounded-50x opacity-0 g-opacity-1--parent-hover g-transition-0_1 g-transition--ease-in" style="background-image: url('https://cdn.bitrix24.ru/b12320196/landing/e93/e93a1b5a77cd364cb2c36f410e850d67/Bs-zngH79Ds_1x.jpg'); background-image: -webkit-image-set(url('https://cdn.bitrix24.ru/b12320196/landing/e93/e93a1b5a77cd364cb2c36f410e850d67/Bs-zngH79Ds_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/d0c/d0cc56091cacbea6924216c0df3dab69/Bs-zngH79Ds_2x.jpg') 2x); background-image: image-set(url('https://cdn.bitrix24.ru/b12320196/landing/e93/e93a1b5a77cd364cb2c36f410e850d67/Bs-zngH79Ds_1x.jpg') 1x, url('https://cdn.bitrix24.ru/b12320196/landing/d0c/d0cc56091cacbea6924216c0df3dab69/Bs-zngH79Ds_2x.jpg') 2x);" data-selector=".landing-block-node-element-icon-hover@1" title="Нажмите, чтобы отредактировать изображение" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="292" data-fileid2x="290"></span>
+								<span class="u-icon-v3 u-icon-size--xl g-width-85 g-height-85 g-bg-transparent g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
+								  <i class="landing-block-node-element-icon fa fa-arrow-circle-right" data-selector=".landing-block-node-element-icon@1" title="Нажмите, чтобы отредактировать изображение" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+								</span>
+                            </div>
+                        </div>
+
+                        <h3 class="landing-block-node-element-title h5 text-uppercase g-mb-10 g-color-white" data-selector=".landing-block-node-element-title@1" title="Нажмите, чтобы отредактировать текст" style="" contenteditable="false">Шаг 4.</h3>
+                        <div class="landing-block-node-element-text g-color-white" data-selector=".landing-block-node-element-text@1" title="Нажмите, чтобы отредактировать текст" style="" contenteditable="false"><p>подождите какое-то время, наш оператор свяжется с вами для уточнения деталей заказа и оплаты.</p></div>
+                    </div>
+                </div></div>
+        </div>
+    </section></div><div id="block106" class="block-wrapper block-26-separator"><section class="landing-block g-pt-10 g-pb-10 g-bg-black">
+
+        <hr class="landing-block-line my-0 g-brd-black-opacity-0_8" />
+
+    </section></div><div id="block60" class="block-wrapper block-19-2-features-with-img"><section class="landing-block g-pb-90 g-bg-black g-pt-90">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-lg-5 text-center g-overflow-hidden order-2 order-md-1">
+				<img class="landing-block-node-img js-animation img-fluid bounceInLeft" src="https://cdn.bitrix24.ru/b12320196/landing/799/7999f1d917350ce818ecf457536de4e7/Free-iPhone-7-Mockup-_-PSD_1x.jpg" alt="iphone" srcset="https://cdn.bitrix24.ru/b12320196/landing/59c/59ca86b749d5114c23b86b1fb185aee1/Free-iPhone-7-Mockup-_-PSD_2x.jpg 2x" data-fileid="100" data-fileid2x="102" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" />
+			</div>
+
+			<div class="landing-block-node-text-container col-md-7 col-lg-7 d-flex text-center text-md-left order-1 order-md-2">
+				<div>
+					<div class="text-uppercase g-mb-20">
+						<h4 class="landing-block-node-subtitle g-font-weight-700 g-font-size-11 g-mb-15 g-color-black">1</h4>
+						<h2 class="landing-block-node-title g-line-height-1_3 g-font-size-36 mb-0 g-color-teal"><span style="font-weight: 700;">НАш хит продаж iphone </span></h2>
+					</div>
+
+					<div class="landing-block-node-text g-mb-65 g-color-gray-light-v3"><p>Данный продукт является самым востребуемым и продаваемым в нашем магазине.</p></div>
+
+					<div class="landing-block-node-cards-container"><div class="landing-block-node-card media d-block d-md-flex text-center text-md-left g-mb-30">
+							<div class="d-md-flex align-self-center g-mb-30 g-mb-0--md g-mr-30--md">
+							<span class="landing-block-node-card-icon-border u-icon-v2 u-icon-size--lg g-font-size-26 g-rounded-50x g-color-teal">
+								<i class="landing-block-node-card-icon et-icon-phone" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:true}"></i>
+							</span>
+							</div>
+
+							<div class="media-body align-self-center">
+								<h4 class="landing-block-node-card-title h6 text-uppercase g-font-weight-700 g-mb-15 g-color-teal">почему выбираю именно эту модель?</h4>
+								<div class="landing-block-node-card-text g-font-size-default mb-0 g-color-gray-light-v3">В данной модели телефона хорошо сочетаются качество и функциональность. Этот телефон поддерживает все программы и приложения выпускающиеся на данный момент разработчиками</div>
+							</div>
+						</div><div class="landing-block-node-card media d-block d-md-flex text-center text-md-left g-mb-30">
+							<div class="d-md-flex align-self-center g-mb-30 g-mb-0--md g-mr-30--md">
+							<span class="landing-block-node-card-icon-border u-icon-v2 u-icon-size--lg g-font-size-26 g-rounded-50x g-color-teal">
+								<i class="landing-block-node-card-icon fa fa-magic" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:true}"></i>
+							</span>
+							</div>
+
+							<div class="media-body align-self-center">
+								<h4 class="landing-block-node-card-title h6 text-uppercase g-font-weight-700 g-mb-15 g-color-teal">как долго продлится его актуальность?</h4>
+								<div class="landing-block-node-card-text g-font-size-default mb-0 g-color-gray-light-v3"><p>Можем с уверенностью сказать, что купив этот телефон он прослужит вам еще, как миниму 4-5 лет, так как данные характеристики телефона будут актуальны еще долгое время.</p></div>
+							</div>
+						</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section></div><div id="block62" class="block-wrapper block-35-2-footer-dark"><section class="g-pt-60 g-pb-60 g-bg-transparent">
+	<div class="container">
+		<div class="row">
+			<div class="landing-block-node-main-card js-animation fadeInLeft col-sm-12 col-md-6 col-lg-6 g-mb-25 g-mb-0--lg">
+				<h2 class="landing-block-node-title text-uppercase g-font-weight-700 g-font-size-16 g-mb-20 g-color-teal">Наши контакты</h2>
+				<div class="landing-block-node-text g-font-size-default g-mb-20 g-color-teal"><p>Свяжитесь с нами, чтобы сделать заказ и уточнить детали.</p></div>
+
+				<address class="g-mb-20"><div class="landing-block-card-contact d-flex g-pos-rel g-mb-7" data-card-preset="link">
+						<div class="landing-block-node-card-contact-icon-container text-left g-width-20 g-color-teal">
+							<i class="landing-block-node-card-contact-icon fa fa-phone"></i>
+						</div>
+						<div>
+							<span class="landing-block-node-card-contact-text g-color-teal">Наш номер</span>
+							<a class="landing-block-node-card-contact-link g-font-weight-700 g-color-cyan" href="tel:8(988)705-10-29" target="_popup">+8(988)705-10-29</a>
+						</div>
+					</div><div class="landing-block-card-contact d-flex g-pos-rel g-mb-7" data-card-preset="link">
+						<div class="landing-block-node-card-contact-icon-container text-left g-width-20 g-color-teal">
+							<i class="landing-block-node-card-contact-icon fa fa-envelope"></i>
+						</div>
+						<div>
+							<span class="landing-block-node-card-contact-text g-color-teal">Email:</span>
+							<a class="landing-block-node-card-contact-link g-font-weight-700 g-color-cyan" href="mailto:denmuhortov90@gmail.com" target="_popup">denmuhortov90@gmail.com</a>
+						</div>
+					</div></address>
+
+			</div>
+
+
+			<div class="landing-block-node-card js-animation fadeInRight col-sm-12 col-md-2 col-lg-2 g-mb-25 g-mb-0--lg">
+				<h2 class="landing-block-node-title text-uppercase g-font-weight-700 g-font-size-16 g-mb-20 g-color-teal"> </h2>
+				<ul class="landing-block-card-list1 list-unstyled g-mb-30"><li class="landing-block-card-list1-item g-mb-10">
+						<a class="landing-block-node-list-item g-color-gray-dark-v5" href="#" target="_self">&nbsp;</a>
+					</li></ul>
+			</div>
+
+			<div class="landing-block-node-card js-animation bounceInRight col-sm-12 col-md-2 col-lg-2 g-mb-25 g-mb-0--lg">
+				<h2 class="landing-block-node-title text-uppercase g-font-weight-700 g-font-size-16 g-mb-20 g-color-teal"> </h2>
+				<ul class="landing-block-card-list2 list-unstyled g-mb-30"><li class="landing-block-card-list2-item g-mb-10">
+						<a class="landing-block-node-list-item g-color-gray-dark-v5" href="#" target="_self">&nbsp;</a>
+					</li></ul>
+			</div>
+
+			<div class="landing-block-node-card js-animation bounceInRight col-sm-12 col-md-2 col-lg-2">
+				<h2 class="landing-block-node-title text-uppercase g-font-weight-700 g-font-size-16 g-mb-20 g-color-teal"> </h2>
+				<ul class="landing-block-card-list1 list-unstyled g-mb-30"><li class="landing-block-card-list3-item g-mb-10">
+						<a class="landing-block-node-list-item g-color-gray-dark-v5" href="#" target="_self">&nbsp;</a>
+					</li></ul>
+			</div>
+
+		</div>
+	</div>
+</section></div>
+</main>
+<script data-skip-moving="true">
+					(function(w,d,u,b){ 'use strict';
+					var s=d.createElement('script');var r=(Date.now()/1000|0);s.async=1;s.src=u+'?'+r;
+					var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+				})(window,document,'https://cdn.bitrix24.ru/b12320196/crm/site_button/loader_2_qowxn3.js');
+				</script> <div class="bitrix-footer">
+			<span class="bitrix-footer-text">
+			Заряжено <img src="/bitrix/components/bitrix/landing.pub/templates/.default/images/ru.svg?1" alt="Битрикс24"> &mdash; Бесплатные Сайты и CRM. <a class="bitrix-footer-link" target="_blank" href="https://bitrix24.ru/create.php?b24_type=sites">Создать сайт</a>		</span>
+			</div><script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1571226147232035"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1574501451','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'d500f724b07f56f5d063c34835ca66f4'});</script><script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?152760418810247"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ls.min.js?14328944187365"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.min.js?14909536449768"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?157070244910580"></script>
+<script type="text/javascript">var bxDate = new Date(); document.cookie="BITRIX_SM_TIME_ZONE="+bxDate.getTimezoneOffset()+"; path=/; expires=Fri, 01-Jan-2038 00:00:00 GMT"</script>
+<script>
+	(function(w,d,u){
+		var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+		var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+	})(window,document,'https://cdn.bitrix24.ru/b12320196/landing/assets/landing_assets_webpack_6f5740c67396304e662709d07d2d5c62.js');
+</script>
+
+
+
+<script type="text/javascript" src="/bitrix/templates/landing24/assets/vendor/jquery/jquery-3.2.1.min.js?156750832790987"></script>
+<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+
+
+<script>
+	(function(w,d,u){
+		var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+		var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+	})(window,document,'https://cdn.bitrix24.ru/b12320196/crm/tag/call.tracker.js');
+</script>
+</body>
+</html>
